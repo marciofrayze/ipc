@@ -30,7 +30,7 @@ Manual IPC+- versão 0.144
 
 	1.2- Qual a utilidade?
 
-	Basicamente nenhuma :-) Foi criado por diversão, mas pode ser usado para
+		Basicamente nenhuma :-) Foi criado por diversão, mas pode ser usado para
 		aprendizado na linguagem C. Ele é muito simples, mas contém toda a estrutura
 		de um interpretador "de verdade" precisaria ter.
 
