@@ -100,7 +100,7 @@ Manual IPC+- versão 0.144
 		Caso use Linux, digite : ./IPC script.ipc
 		Caso use Windows, no prompt do DOS execute :
 		IPC.exe script.ipc
-		Caso use outro Sistema Operacional, terá que compilar o código antes..
+		Caso use outro Sistema Operacional, terá que compilar o código antes...
 
 5- Códigos de exemplo
 
@@ -110,7 +110,7 @@ Manual IPC+- versão 0.144
 
 6- Termos de uso
 
-	O IPC+- utiliza a licen�a GNU GENERAL PUBLIC LICENSE 2, sendo assim você pode modifica-lo,
+	O IPC+- utiliza a licença GNU GENERAL PUBLIC LICENSE 2, sendo assim você pode modifica-lo,
 	redistribui-lo, etc. Para mais informações, leia o arquivo GNU.txt.
 
 
