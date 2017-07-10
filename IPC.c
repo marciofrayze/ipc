@@ -1,7 +1,7 @@
 /*
 Interpretador IPC+- versão 0.144
 Insane Software - divisão Useless
-Este código se encontra disponével sob a licença GNU GENERAL PUBLIC LICENSE 2 e
+Este código se encontra disponível sob a licença GNU GENERAL PUBLIC LICENSE 2 e
 foi baseado nos programas PTM e Cinple, ambos feitos por Daniel Scapin.
 
 Copyright (C) 2004  Marcio Frayze David
