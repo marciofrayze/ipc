@@ -22,7 +22,6 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 Formas de contato :
 Email  : mfdavid@gmail.com
-Cartas : Rua Jubiaba, 110, Vila Madalena. CEP 05444-039, São Paulo, SP - Brasil.
 
 Comandos diponíveis:
 Ix => Verifica se o elemento na cabeça eh igual ao elemento x (x pode ser um
