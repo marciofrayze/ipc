@@ -2,20 +2,19 @@
 Manual IPC+- versão 0.144
 -------------------------
 
-Visite o Wiki do IPC+- em : http://arealivre.homelinux.org:3000/cgi-bin/wiki.pl/IPC
-
-
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
 1- Sobre o programa
+
 2- Sobre o autor
+
 3- Sintaxe do interpretador
+
 4- Compilando e executando o interpretador
+
 5- Códigos de exemplo
+
 6- Termos de uso
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
 
 1- Sobre o programa
 
