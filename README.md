@@ -21,8 +21,7 @@ Manual IPC+- versão 0.144
 	1.1- O que é o IPC+-
 
 		IPC+- é um interpretador de comando extremamente simples. Sua forma de
-		funcionamento foi inspirada na Maquina de Alan Turing, mas é mais simples,
-		pois não temos a noção de estados, como existe na MT.
+		funcionamento foi inspirada na Maquina de Alan Turing.
 
 		A única forma de se armazenar informações ao se usar o IPC+- é colocando as
 		informações em um fita (na verdade é um simples vetor). Depois é possível
@@ -31,8 +30,8 @@ Manual IPC+- versão 0.144
 	1.2- Qual a utilidade?
 
 		Basicamente nenhuma :-) Foi criado por diversão, mas pode ser usado para
-		aprendizado na linguagem C. Ele é muito simples, mas contém toda a estrutura
-		de um interpretador "de verdade" precisaria ter.
+		aprendizado na linguagem C. Ele é muito simples, mas contém parte da estrutura
+		que um interpretador "de verdade" precisaria ter.
 
 2- Sobre o autor
 
@@ -44,9 +43,7 @@ Manual IPC+- versão 0.144
 
 	2.2- Formas para entrar em contato
 
-		Para entrar em contato com o autor, envie um email para mfdavid@gmail.com ou
-		mande uma carta para :
-		Rua Jubiaba, 110, Vila Madalena. CEP 05444-039, São Paulo, SP - Brasil
+		Para entrar em contato com o autor, envie um email para mfdavid@gmail.com.
 
 3- Sintaxe do interpretador
 
@@ -54,22 +51,22 @@ Manual IPC+- versão 0.144
 
 		O IPC+- usa uma fita (vetor) para armazenas as informações, então precisamos
 		andar por este vetor para realizarmos nossas tarefas. Para isso, usamos o comando
-		+ para avançar pela fita, e o - para retroceder. Podemos usar estes comandos
+		+ para avançar pela fita e o - para retroceder. Podemos usar estes comandos
 		quantas vezes forem necessárias.
-		Exemplo : +-++
+		Exemplo: +-++
 
 	3.2- Usando o comando C
 
 		O comando C é usado para alterar o valor armazenado na posição atual da fita.
 		Ao usá-lo, sempre coloque um outro caracter qualquer após esse comando, e esse
 		caracter será armazenado na fita.
-		Exemplo : Ca
+		Exemplo: Ca
 
 	3.3- Usando o comando P
 
 		Usamos o comando P para imprimir o caracter corrente da fita no console. Use o
-		comando C para armazenas algo na fita, depois o P para imprimi-lo na tela.
-		Exemplo : CaP
+		comando C para armazenas algo na fita em seguida o P para imprimi-lo na tela.
+		Exemplo: CaP
 
 	3.4- Usando o comando I
 
@@ -78,7 +75,7 @@ Manual IPC+- versão 0.144
 		encontra na posição atual da fita, o interpretador continuará executando o seu
 		código normalmente. Caso sejam diferentes, ele irá ignorar todo o resto
  		daquela linha e irá passar para a próxima linha do script.
-		Exemplo : CxIxP
+		Exemplo: CxIxP
 
 	3.5- Escrevendo comentários no código
 
@@ -91,9 +88,9 @@ Manual IPC+- versão 0.144
 
 		Provavelmente qualquer compilador de C irá compilar o IPC+- sem qualquer
 		problema, mas recomendo usar o GCC e um ambiente *unix.
-		Para compilar com o GCC use : gcc -o IPC IPC.c
+		Para compilar com o GCC use: gcc -o IPC IPC.c
 
-		OBS: junto com o ZIP estão incluódos os binários para Linux e MS Windows.
+		OBS: junto com o ZIP estão incluídos os binários para Linux e MS Windows.
 
 	4.2- Executando o interpretador
 
@@ -105,7 +102,7 @@ Manual IPC+- versão 0.144
 5- Códigos de exemplo
 
 	Junto com o interpretador foram colocados alguns exemplos simples de scripts que o
-	IPC+- É capaz de interpretar (arquivos .ipc). Veja seus códigos para entender melhor
+	IPC+- é capaz de interpretar (arquivos .ipc). Veja seus códigos para entender melhor
 	como o interpretador funciona. ;-)
 
 6- Termos de uso
